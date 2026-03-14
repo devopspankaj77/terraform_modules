@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive
+*.pem
+*.tfvars.json
+secrets/
+# Optional if tfvars contain secrets: uncomment next line (see SECURITY.md)
+# *.tfvars
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
